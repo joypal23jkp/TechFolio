@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+  # TechFolio
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Look at the - https://www.figma.com/design/7wwkExYm5sS1aU5hBT7Rj2/Emam-Personal-Website-UI?node-id=50-76&t=ooyeYqk8k69d2zFp-1
 
 ## Setup
 
