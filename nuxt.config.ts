@@ -12,12 +12,14 @@ export default defineNuxtConfig({
       }
     }
   },
+  future: {
+    compatibilityVersion: 4
+  },
   modules: [
-    '@nuxt/eslint'
+    '@nuxt/eslint',
+    '@nuxtjs/tailwindcss'
   ],
   srcDir: 'app',
   serverDir: 'server',
-  future: {
-    compatibilityVersion: 4
-  }
+  tailwindcss: {}
 });

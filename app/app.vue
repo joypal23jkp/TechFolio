@@ -1,12 +1,9 @@
 <template>
-  <div>
+  <div class="font-bold">
     <Welcome />
-    {{ x }}
+    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
   </div>
 </template>
 
 <script lang="ts" setup>
-const x = {
-  name: 'Mr. Pal'
-};
 </script>
