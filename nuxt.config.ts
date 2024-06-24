@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss'
   ],
-  srcDir: 'app',
-  serverDir: 'server',
+    srcDir: 'app',
+    serverDir: 'server',
   tailwindcss: {}
 });
