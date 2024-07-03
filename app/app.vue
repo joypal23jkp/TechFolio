@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div>
-      <div class="header-container flex justify-between items-center w-[100vw] h-[108px] px-[240px] py-[24px] bg-[#F6F9FA]">
+      <div class="header-container flex justify-between items-center w-[100%] h-[108px] px-[240px] py-[24px] bg-[#F6F9FA]">
         <div class="logo">
           Logo
         </div>
@@ -20,10 +19,18 @@
           </ul>
         </div>
       </div>
-      <div class="homepage-body-container">
+      <div class="homepage-body-container bg-[#F6F9FA]">
         <Homepage />
       </div>
-    </div>
+      <div class="myWorld-page-container bg-[#FFFFFF]">
+        <MyWorld />
+      </div>
+      <div class="journey-page-container bg-[#F6F9FA]">
+        <Journey />
+      </div>
+      <div class="about-page-container bg-[#FFFFFF]">
+        <About />
+      </div>
   </div>
 </template>
 
@@ -42,6 +49,7 @@ body {
   padding: 0;
   height: 100vh;
   width: 100vw;
+  max-width: 1920px;
 }
 .logo {
   font-family: "Playwrite US Trad", cursive;
