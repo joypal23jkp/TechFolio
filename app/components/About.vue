@@ -4,9 +4,9 @@
 
 <template>
   <div class="flex items-center justify-center about-page-container max-w-[1920px] px-[240px] py-[120px] relative">
-    <div class="w-[700px] font-light font-serif bg-amber-50 left-[300px] border-solid border-2 border-indigo-600 px-[48px] py-[64px] flex flex-col absolute z-10">
-      <h1 class="text-4xl font-bold pb-8">About me</h1>
-      <p>
+    <div class="w-[700px] font-light bg-[#F6F9FA] left-[320px] border-solid border-2 border-[#898989] px-[64px] py-[48px] flex flex-col absolute z-10">
+      <h1 class="text-[100px] font-bold leading-[120px]">About me</h1>
+      <p class="text-[20px] leading-[28px] text-[#565656]">
         "In the dynamic canvas of business, strategic vision paints path forward, fueled by relentless determination.
         Collaboration beco brushstroke that colors innovation, while adaptability acts as the canvas that absorbs change.
         A decision is a stroke, shaping the masterpiece of success, and resilience serves as the frame,
@@ -23,8 +23,8 @@
         </ul>
       </div>
     </div>
-    <div class="w-[600px] h-[800px] flex justify-end relative z-0 left-[200px]">
-      <img src="https://cdn-bgp.bluestacks.com/BGP/us/gametiles_com.dts.freefireth.jpg" alt="Loading..." class="w-[100%] h-[100%]"/>
+    <div class="flex justify-end relative z-0 left-[350px] w-[646px] h-[800px] px-[59px] py-[15px] border-solid border-2 border-[#898989]">
+      <img src="../assets/images/img_8.png" alt="Loading..." class=""/>
     </div>
   </div>
 </template>
