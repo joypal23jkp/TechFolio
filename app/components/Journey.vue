@@ -97,7 +97,7 @@
       </div>
       <div class=" flex flex-col items-center justify-center relative">
         <div class="h-[24px] w-[24px] rounded-2xl bg-blue-700"></div>
-        <div class="border-solid border-2 border-indigo-600 h-[1347px]"></div>
+        <div class="border-solid border-2 border-indigo-600 h-[1352px]"></div>
         <div class="h-[24px] w-[24px] rounded-2xl bg-black"></div>
       </div>
       <div class="flex flex-col gap-[300px]">
