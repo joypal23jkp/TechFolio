@@ -2,7 +2,10 @@
 export default {
   content: [],
   theme: {
-    extend: {}
+    extend: {},
+    fontFamily: {
+      'GBP': ['Gentium Book Plus', 'serif']
+    }
   },
   plugins: []
 };

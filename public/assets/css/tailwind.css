@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@theme {
+    --font-family-display: "Gentium Book Plus", "sans-serif";
+  }  

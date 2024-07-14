@@ -1,43 +1,57 @@
 <template>
-  <div>
-      <div class="header-container flex justify-between items-center w-[100%] h-[108px] px-[240px] py-[24px] bg-[#F6F9FA]">
-        <div class="logo">
-          Logo
-        </div>
-        <div class="options-container">
-          <ul class="list-container flex items-center">
-            <li class="pl-6">Business Journey</li>
-            <li class="pl-6">About</li>
-            <li class="pl-6">Short History</li>
-            <li class="pl-6">Gallery</li>
-            <li class="pl-6">Contact Me</li>
-            <li class="toggle-container ml-6">
-              <label for="check" class="button">
-                <input type="checkbox" id="check">
-              </label>
-            </li>
-          </ul>
-        </div>
+  <div style="font-family: 'Gentium Book Plus';">
+    <div class="header-container flex justify-between items-center w-[100%] h-[108px] px-[240px] py-[24px] bg-[#F6F9FA]">
+      <div class="logo">
+        Logo
       </div>
-      <div class="homepage-body-container bg-[#F6F9FA]">
-        <Homepage />
+      <div class="options-container">
+        <ul class="list-container flex items-center">
+          <li class="pl-6">
+            Business Journey
+          </li>
+          <li class="pl-6">
+            About
+          </li>
+          <li class="pl-6">
+            Short History
+          </li>
+          <li class="pl-6">
+            Gallery
+          </li>
+          <li class="pl-6">
+            Contact Me
+          </li>
+          <li class="toggle-container ml-6">
+            <label
+              for="check"
+              class="button"
+            >
+              <input
+                id="check"
+                type="checkbox"
+              >
+            </label>
+          </li>
+        </ul>
       </div>
-      <div class="myWorld-page-container bg-[#FFFFFF]">
-        <MyWorld />
-      </div>
-      <div class="journey-page-container bg-[#F6F9FA]">
-        <Journey />
-      </div>
-      <div class="about-page-container bg-[#FFFFFF]">
-        <About />
-      </div>
+    </div>
+    <div class="homepage-body-container bg-[#F6F9FA]">
+      <Homepage />
+    </div>
+    <div class="myWorld-page-container bg-[#FFFFFF]">
+      <MyWorld />
+    </div>
+    <div class="journey-page-container bg-[#F6F9FA]">
+      <Journey />
+    </div>
+    <div class="about-page-container bg-[#FFFFFF]">
+      <About />
+    </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import Homepage from "~/components/Homepage.vue";
-
-
+import Homepage from '~/components/Homepage.vue';
 </script>
 
 <style>

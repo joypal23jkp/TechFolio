@@ -17,9 +17,21 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/eslint',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    "@nuxt/fonts"
   ],
-    srcDir: 'app',
-    serverDir: 'server',
-  tailwindcss: {}
+  srcDir: 'app',
+  serverDir: 'server',
+  tailwindcss: {},
+  fonts: {
+    experimental: {
+      processCSSVariables: true
+    },
+    families: [
+      {
+        name: 'Gentium Book Plus',
+        provider: 'google'
+      }
+    ]
+  }
 });
