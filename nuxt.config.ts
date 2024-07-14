@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
-    "@nuxt/fonts"
+    '@nuxt/fonts'
   ],
   srcDir: 'app',
   serverDir: 'server',
