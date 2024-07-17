@@ -1,17 +1,20 @@
 <template>
-  <div class="flex flex-col items-center justify-center">
-      <div class="w-full header-section flex justify-center bg-[#F6F9FA]">
-        <div class="px-[240px] py-[24px] w-[1920px] flex justify-between items-center ">
+  <div class="flex flex-col items-center justify-center relative">
+      <div class="h-[80px] w-[80px] fixed rounded-[30px] z-9999 cursor-pointer bg-blue-700 top-[800px] right-[300px] flex items-center justify-center flex-wrap" @click="scrollToSection('homepage')">
+          Back To Top
+      </div>
+      <div class="w-full header-section flex justify-items-center bg-[#F6F9FA]">
+        <div class="px-[240px] py-[24px] max-w-[1920px] w-full flex justify-between items-center ">
           <div class="h-[60px] w-[142.5px]">
             <img src="./assets/images/img_1.png" alt="Loading....."/>
           </div>
           <div class="options-container flex gap-[40px] items-center">
             <div class="list-container flex items-center text-[24px] gap-[40px]">
-              <span>Business Journey</span>
-              <span>About</span>
-              <span>Short History</span>
-              <span>Gallery</span>
-              <span>Contact Me</span>
+              <span class="cursor-pointer" @click="scrollToSection('business-journey')"><NuxtLink to="business-journey">Business Journey</NuxtLink></span>
+              <span class="cursor-pointer" @click="scrollToSection('about')"><NuxtLink to="about">About</NuxtLink></span>
+              <span class="cursor-pointer" @click="scrollToSection('short-history')"><NuxtLink to="short-story">Short History</NuxtLink></span>
+              <span class="cursor-pointer" @click="scrollToSection('gallery')"><NuxtLink to="gallery">Gallery</NuxtLink></span>
+              <span class="cursor-pointer" @click="scrollToSection('contact-me')"><NuxtLink to="contact-me">Contact Me</NuxtLink></span>
             </div>
             <div class="toggle-container h-[44px] w-[88px] p-[6px] flex gap-[12px]">
               <div>
@@ -37,35 +40,53 @@
           </div>
         </div>
       </div>
-      <div class="w-full hero-section bg-[#F6F9FA] flex justify-center">
-        <Homepage class="max-w-[1920px]"/>
+      <div ref="homePage" class="w-full hero-section bg-[#F6F9FA] flex justify-center" id="homepage">
+        <Homepage class="max-w-[1920px]" id="business-journey"/>
       </div>
       <div class="myWorld-section w-full bg-[#FFFFFF] flex justify-center">
         <MyWorld class="max-w-[1920px]" />
       </div>
-      <div class="journey-section bg-[#F6F9FA] flex w-full justify-center">
+      <div ref="section1" class="journey-section bg-[#F6F9FA] flex w-full justify-center" id="business-journey">
         <Journey class="max-w-[1920px]" />
       </div>
-      <div class="about-section bg-[#FFFFFF] w-full flex justify-center">
+      <div ref="section2" class="about-section bg-[#FFFFFF] w-full flex justify-center" id="about">
         <About class="max-w-[1920px]" />
       </div>
-      <div class="history-section bg-[#F6F9FA] w-full flex justify-center">
+      <div ref="section3" class="history-section bg-[#F6F9FA] w-full flex justify-center" id="short-history">
         <History class="max-w-[1920px]" />
       </div>
-      <div class="gallery-section bg-[#FFFFFF] w-full flex justify-center">
+      <div ref="section4" class="gallery-section bg-[#FFFFFF] w-full flex justify-center" id="gallery">
         <Gallery class="max-w-[1920px]" />
       </div>
-    <div class="contact-section bg-[#F6F9FA] w-full flex justify-center">
-      <Contact class="max-w-[1920px]" />
-    </div>
-    <div class="footer-section bg-[#FFFFFF] w-full flex justify-center">
+      <div ref="section5" class="contact-section bg-[#F6F9FA] w-full flex justify-center" id="contact-me">
+        <Contact class="max-w-[1920px]" />
+      </div>
+      <div class="footer-section bg-[#FFFFFF] w-full flex justify-center">
       <Footer class="max-w-[1920px]" />
-    </div>
+      </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import Homepage from "~/components/Homepage.vue";
+const homePage = ref<HTMLElement>();
+const section1 = ref<HTMLElement>();
+const section2 = ref<HTMLElement>();
+const section3 = ref<HTMLElement>();
+const section4 = ref<HTMLElement>();
+const section5 = ref<HTMLElement>();
+
+const sections = ref<any[]>([]);
+
+const scrollToSection = (id: string) => {
+  console.log(sections.value, 'sections');
+  const section = sections.value.find(section => section.id === id);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+onMounted(() => {
+  sections.value = [section1.value, section2.value, section3.value, section4.value, section5.value, homePage.value];
+})
 
 
 </script>
@@ -73,6 +94,9 @@ import Homepage from "~/components/Homepage.vue";
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
 /* Global styles can be defined here */
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -89,6 +113,7 @@ body {
 .toggle-container{
   background: #147CD1;
   border-radius: 999px;
+  cursor: pointer;
 }
 .container .text{
   font-size: 30px;
