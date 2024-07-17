@@ -62,8 +62,8 @@
         <Contact class="max-w-[1920px]" />
       </div>
       <div class="footer-section bg-[#FFFFFF] w-full flex justify-center">
-      <Footer class="max-w-[1920px]" />
-      </div>
+       <Footer class="max-w-[1920px]" />
+    </div>
   </div>
 </template>
 
