@@ -135,7 +135,7 @@
         </div>
         <div>
           <button class="flex mob:px-[24px] mob:py-[12px] gap-[10px] items-center border-solid border-[1px] border-[#262626] font-normal text-[20px] leading-[28px] px-[40px] py-[16px]">
-            <span class="text-[20px] leading-[28px]">Contact Me</span>
+            <span class="text-[20px] leading-[16px]">Contact Me</span>
             <svg class="hidden mob:block" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
               <path d="M4.00016 4.875V6.20833H9.72683L3.3335 12.6017L4.2735 13.5417L10.6668 7.14833V12.875H12.0002V4.875H4.00016Z" fill="#262626"/>
             </svg>
