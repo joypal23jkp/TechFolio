@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <div class="flex relative gap-[100px] homepage-body-container px-[240px] py-[32px]">
-    <div class="icon-container absolute left-[7.5rem] top-[330px]">
+  <div class="flex relative gap-[100px] homepage-body-container px-[240px] py-[32px] desk1:px-[140px] mob:px-[16px] mob:flex-col mob:gap-[32px]">
+    <div class="mob:hidden tab:hidden desk3:hidden desk2:hidden icon-container absolute left-[7.5rem] top-[330px]">
       <ul class="flex gap-[24px] flex-col items-center">
         <li>
           <svg
@@ -110,32 +110,35 @@
         </li>
       </ul>
     </div>
-    <div class="w-[818.5px] h-[889.5px] flex">
+    <div class="w-[818.5px] h-[889.5px] flex desk1:h-[800px] desk1:w-[736px] desk2:h-[711px] desk2:w-[654px] desk3:h-[622px] desk3:w-[572px] tab:w-[491px] tab:h-[533px] mob:w-[291px] mob:h-[315px]">
       <img
         src="../assets/images/img.png"
         alt="Loading..."
         class="w-[100%] h-[100%]"
       >
     </div>
-    <div class="flex justify-center flex-col items-start gap-[32px]">
-      <div class="font-normal text-[40px] not-italic">
+    <div class="flex justify-center flex-col items-start gap-[32px] mob:gap-[12px] py-[16px]">
+      <div class="font-normal text-[40px] mob:text-[30px] mob:leading-[36px]">
         Hello! 👋  World,  I am
         <!--      Hello! <img src="../assets/images/waving-hand-sign_1f44b.png" alt="loading..." class="w-[60px] h-[50px] px-1 inline-block"/> world, I am -->
       </div>
       <div>
-        <span class="text-[180px] leading-[130px] not-italic font-bold">Emam</span><br><span class="text-[145px] leading-[130px] not-italic font-bold name">Hossain</span>
+        <span class="title-name text-[180px] leading-[130px] mob:text-[100px] mob:leading-[70px] font-bold">Emam</span><br><span class="title-surname text-[145px] mob:text-[80px] mob:leading-[70px] leading-[130px] font-bold">Hossain</span>
       </div>
-      <div class="font-bold text-[24px] italic leading-[32px] text-[#565656]">
+      <div class="font-bold text-[24px] mob:text-[20px] mob:leading-[28px] italic leading-[32px] text-[#565656]">
         I am a Businessman
       </div>
       <div class="flex flex-col gap-[32px]">
-        <div class="text-[#565656] w-[514px] text-[20px] font-normal not-italic leading-[28px]">
+        <div class="text-[#565656] max-w-[514px] text-[20px] mob:text-[16px] mob:leading-[24px] font-normal not-italic leading-[28px]">
           "Success is forged through innovation and resilience.
           In the ever-changing business landscape, adaptability is the key to sustained growth."
         </div>
         <div>
-          <button class="border-solid border-[1px] border-[#262626] font-normal text-[20px] leading-[28px] px-[40px] p-[16px]">
-            Contact Me
+          <button class="flex mob:px-[24px] mob:py-[12px] gap-[10px] items-center border-solid border-[1px] border-[#262626] font-normal text-[20px] leading-[28px] px-[40px] py-[16px]">
+            <span class="text-[20px] leading-[28px]">Contact Me</span>
+            <svg class="hidden mob:block" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+              <path d="M4.00016 4.875V6.20833H9.72683L3.3335 12.6017L4.2735 13.5417L10.6668 7.14833V12.875H12.0002V4.875H4.00016Z" fill="#262626"/>
+            </svg>
           </button>
         </div>
       </div>
@@ -143,6 +146,38 @@
   </div>
 </template>
 
-<style>
-
+<style scoped>
+@media screen and (max-width: 1900px) and (min-width: 1701px){
+  .homepage-body-container {
+    padding: 34px 200px;
+  }
+  .title-name {
+    font-size: 140px;
+  }
+  .title-surname {
+    font-size: 110px;
+  }
+}
+@media screen and (max-width: 1700px) and (min-width: 1401px){
+  .homepage-body-container {
+    padding: 34px 160px;
+  }
+  .title-name {
+    font-size: 120px;
+  }
+  .title-surname {
+    font-size: 90px;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1301px){
+  .homepage-body-container {
+    padding: 34px 100px;
+  }
+  .title-name {
+    font-size: 110px;
+  }
+  .title-surname {
+    font-size: 80px;
+  }
+}
 </style>
