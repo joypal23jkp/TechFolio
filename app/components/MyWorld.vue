@@ -5,7 +5,7 @@
 <template>
   <div class="flex items-center justify-center mob:py-[64px] mob:gap-[32px] gap-[48px] flex-col py-[120px]">
     <div class="flex justify-center items-center flex-col gap-[16px] mob:gap-[12px] mob:px-[16px]">
-      <div class="flex gap-[24px] mob:gap-[12px] mob:py-[16px]">
+      <div class="flex gap-[24px] items-center mob:items-start mob:gap-[12px] mob:py-[16px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="25"
