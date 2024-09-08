@@ -5,13 +5,14 @@
 <template>
   <div class="flex items-center justify-center mob:px-[16px] mob:py-[64px] gap-[48px] flex-col py-[120px] px-[240px]">
     <div class="flex justify-center items-center flex-col gap-[16px]">
-      <div class="flex gap-[24px] items-center">
+      <div class="flex gap-[24px] items-center mob:items-start">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="25"
           height="24"
           viewBox="0 0 25 24"
           fill="none"
+          class="mob:h-[16px] mob:w-[16px]"
         >
           <path
             d="M24.375 24L0.801777 24C0.690414 24 0.634642 23.8654 0.713388 23.7866L24.2866 0.213387C24.3654 0.134643 24.5 0.190411 24.5 0.301776L24.5 23.875C24.5 23.944 24.444 24 24.375 24Z"
@@ -27,6 +28,7 @@
           height="24"
           viewBox="0 0 25 24"
           fill="none"
+          class="mob:h-[16px] mob:w-[16px]"
         >
           <path
             d="M0.5 23.875V0.301777C0.5 0.190414 0.634642 0.134642 0.713388 0.213388L24.2866 23.7866C24.3654 23.8654 24.3096 24 24.1982 24H0.625C0.555964 24 0.5 23.944 0.5 23.875Z"
@@ -39,7 +41,7 @@
         featuring diverse creations that captivate and inspire.
       </p>
     </div>
-    <div class="grid-layout mob:grid-layout-mob mob:grid-cols-2 mob:grid-rows-4 mob:gap-[16px]">
+    <div class="grid gap-[24px] grid-cols-4 grid-rows-2 mob:grid-cols-2 mob:grid-rows-4 mob:gap-[16px]">
       <div class="row-start-1 row-end-3 col-start-1 col-end-3">
         <img
           src="~/assets/images/Gallery/img.png"
@@ -98,14 +100,11 @@
 
 <style>
 .grid-layout {
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 24px;
 }
 .grid-layout-mob {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 16px;
+  grid-template-columns: repeat(2, 1fr) !important;
+  grid-template-rows: repeat(4, 1fr) !important;
 }
 </style>
