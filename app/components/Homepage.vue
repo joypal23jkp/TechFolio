@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="flex relative gap-[100px] homepage-body-container px-[240px] py-[32px] desk1:px-[140px] mob:px-[16px] mob:flex-col mob:gap-[32px]">
+  <div class="flex relative gap-[100px] homepage-body-container px-[240px] py-[32px] desk1:px-[140px] mob:px-[16px] mob:py-[64px] mob:flex-col mob:gap-[32px]">
     <div class="mob:hidden tab:hidden desk3:hidden desk2:hidden icon-container absolute left-[7.5rem] top-[330px]">
       <ul class="flex gap-[24px] flex-col items-center">
         <li>

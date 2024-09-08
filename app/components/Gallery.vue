@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="flex items-center justify-center  gap-[48px] flex-col py-[120px] px-[240px]">
+  <div class="flex items-center justify-center mob:px-[16px] mob:py-[64px] gap-[48px] flex-col py-[120px] px-[240px]">
     <div class="flex justify-center items-center flex-col gap-[16px]">
       <div class="flex gap-[24px] items-center">
         <svg
@@ -18,7 +18,7 @@
             fill="#147CD1"
           />
         </svg>
-        <h1 class="text-[48px] font-bold leading-[64px] text-[#262626]">
+        <h1 class="text-[48px] font-bold leading-[64px] text-[#262626] mob:text-center mob:text-[30px] mob:leading-[36px] mob:mt-[-6px]">
           My Gallery
         </h1>
         <svg
@@ -34,41 +34,41 @@
           />
         </svg>
       </div>
-      <p class="w-[1118px] text-center text-[24px] font-light leading-[32px] text-[#565656]">
+      <p class="w-[1118px] text-center text-[24px] font-light leading-[32px] text-[#565656] mob:w-auto mob:text-[16px] mob:leading-[24px]">
         My gallery showcases a vibrant tapestry of artistic expressions,
         featuring diverse creations that captivate and inspire.
       </p>
     </div>
-    <div class="grid-layout">
-      <div class="row-start-1 row-end-3 col-start-1 col-end-3 ">
+    <div class="grid-layout mob:grid-layout-mob mob:grid-cols-2 mob:grid-rows-4 mob:gap-[16px]">
+      <div class="row-start-1 row-end-3 col-start-1 col-end-3">
         <img
           src="~/assets/images/Gallery/img.png"
           alt="loading..."
           class="w-[100%] h-[100%]"
         >
       </div>
-      <div class="row-start-1 row-end-2 col-start-3 col-end-4">
+      <div class="row-start-1 row-end-2 col-start-3 col-end-4 mob:row-start-3 mob:row-end-4 mob:col-start-1 mob:col-end-2">
         <img
           src="~/assets/images/Gallery/img_1.png"
           alt="loading..."
           class="w-[100%] h-[100%]"
         >
       </div>
-      <div class="row-start-1 row-end-2 col-start-4 col-end-5">
+      <div class="row-start-1 row-end-2 col-start-4 col-end-5 mob:row-start-3 mob:row-end-4 mob:col-start-2 mob:col-end-3">
         <img
           src="~/assets/images/Gallery/img_2.png"
           alt="loading..."
           class="w-[100%] h-[100%]"
         >
       </div>
-      <div class="row-start-2 row-end-3 col-start-3 col-end-4">
+      <div class="row-start-2 row-end-3 col-start-3 col-end-4 mob:row-start-4 mob:row-end-5 mob:col-start-1 mob:col-end-2">
         <img
           src="~/assets/images/Gallery/img_3.png"
           alt="loading..."
           class=" w-[100%] h-[100%]"
         >
       </div>
-      <div class="row-start-2 row-end-3 col-start-4 col-end-5">
+      <div class="row-start-2 row-end-3 col-start-4 col-end-5 mob:row-start-4 mob:row-end-5 mob:col-start-2 mob:col-end-3">
         <img
           src="~/assets/images/Gallery/img_4.png"
           alt="loading..."
@@ -77,7 +77,7 @@
       </div>
     </div>
     <div class="w-[100%] flex justify-end">
-      <button class="flex items-center gap-[10px] leading-[24px] text-[16px] border-solid border-2 border-indigo-600 px-[16px] py-[12px]">
+      <button class="flex items-center gap-[10px] leading-[24px] text-[16px] border-solid border-[1.5px] border-black px-[16px] py-[12px] mob:leading-[20px]">
         Explore Now
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -96,11 +96,16 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .grid-layout {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 24px;
+}
+.grid-layout-mob {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 16px;
 }
 </style>

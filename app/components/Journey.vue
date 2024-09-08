@@ -41,7 +41,7 @@
         embracing opportunities, and evolving to carve a path towards sustained success.
       </p>
     </div>
-    <div class="flex justify-center relative mob:h-[1800px]">
+    <div class="flex justify-center relative mob:h-[1560px]">
       <div class="flex flex-col mob:gap-[270px]">
         <div class="flex items-center relative top-[320px] left-[30px] z-10 mob:left-0 mob:top-[380px]">
           <div class="mob:w-[328px] mob:p-[16px] border-solid border-[1px] border-[#AFAFAF] w-[660px] flex flex-col p-[32px] gap-[24px]">
@@ -61,13 +61,14 @@
                   height="12"
                   viewBox="0 0 106 12"
                   fill="none"
+                  class="mob:w-[40px]"
                 >
                   <path
                     d="M105.333 6C105.333 3.05448 102.946 0.666667 100 0.666667C97.0545 0.666666 94.6667 3.05448 94.6667 6C94.6667 8.94552 97.0545 11.3333 100 11.3333C102.946 11.3333 105.333 8.94552 105.333 6ZM100 5L8.74228e-08 4.99999L-8.74228e-08 6.99999L100 7L100 5Z"
                     fill="#FF563F"
                   />
                 </svg>
-                <div class="mob:text-[24px] mob:leading-[32px] mob:px-[16px] border-solid border-[1px] border-black text-[36px] leading-[48px] px-[32px]">
+                <div class="mob:text-[24px] mob:leading-[32px] mob:px-[16px] border-solid border-[1.5px] border-black text-[36px] leading-[48px] px-[32px]">
                   <h1>2022</h1>
                 </div>
               </div>
@@ -77,7 +78,7 @@
               </p>
             </div>
             <div>
-              <button class="flex items-center gap-[10px] leading-[24px] text-[16px] border-solid border-2 border-[#AFAFAF] px-[16px] py-[12px]">
+              <button class="flex items-center gap-[10px] leading-[24px] text-[16px] border-solid border-[1px] border-black px-[16px] py-[12px]">
                 Explore Now
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -94,57 +95,57 @@
               </button>
             </div>
           </div>
-<!--          <svg-->
-<!--            xmlns="http://www.w3.org/2000/svg"-->
-<!--            width="78"-->
-<!--            height="32"-->
-<!--            viewBox="0 0 78 32"-->
-<!--            fill="none"-->
-<!--            class="mob:hidden"-->
-<!--          >-->
-<!--            <rect-->
-<!--              opacity="0.3"-->
-<!--              x="61.5"-->
-<!--              y="32"-->
-<!--              width="61"-->
-<!--              height="32"-->
-<!--              transform="rotate(-180 61.5 32)"-->
-<!--              fill="url(#paint0_linear_354_1354)"-->
-<!--            />-->
-<!--            <circle-->
-<!--              cx="61.5"-->
-<!--              cy="16"-->
-<!--              r="16"-->
-<!--              transform="rotate(-180 61.5 16)"-->
-<!--              fill="white"-->
-<!--            />-->
-<!--            <circle-->
-<!--              cx="61.5"-->
-<!--              cy="16"-->
-<!--              r="8"-->
-<!--              transform="rotate(-180 61.5 16)"-->
-<!--              fill="#FF563F"-->
-<!--            />-->
-<!--            <defs>-->
-<!--              <linearGradient-->
-<!--                id="paint0_linear_354_1354"-->
-<!--                x1="61.5"-->
-<!--                y1="52"-->
-<!--                x2="173"-->
-<!--                y2="52"-->
-<!--                gradientUnits="userSpaceOnUse"-->
-<!--              >-->
-<!--                <stop stop-color="#FF563F" />-->
-<!--                <stop-->
-<!--                  offset="1"-->
-<!--                  stop-color="white"-->
-<!--                  stop-opacity="0"-->
-<!--                />-->
-<!--              </linearGradient>-->
-<!--            </defs>-->
-<!--          </svg>-->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="78"
+            height="32"
+            viewBox="0 0 78 32"
+            fill="none"
+            class="mob:hidden"
+          >
+            <rect
+              opacity="0.3"
+              x="61.5"
+              y="32"
+              width="61"
+              height="32"
+              transform="rotate(-180 61.5 32)"
+              fill="url(#paint0_linear_354_1354)"
+            />
+            <circle
+              cx="61.5"
+              cy="16"
+              r="16"
+              transform="rotate(-180 61.5 16)"
+              fill="white"
+            />
+            <circle
+              cx="61.5"
+              cy="16"
+              r="8"
+              transform="rotate(-180 61.5 16)"
+              fill="#FF563F"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_354_1354"
+                x1="61.5"
+                y1="52"
+                x2="173"
+                y2="52"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#FF563F" />
+                <stop
+                  offset="1"
+                  stop-color="white"
+                  stop-opacity="0"
+                />
+              </linearGradient>
+            </defs>
+          </svg>
         </div>
-        <div class="flex items-center relative top-[550px] left-[0px] z-10">
+        <div class="flex items-center relative top-[550px] left-[29px] mob:left-0 z-10">
           <div class="mob:w-[328px] mob:p-[16px] border-solid border-[1px] border-[#AFAFAF] w-[660px] flex flex-col p-[32px] gap-[24px]">
             <div class="flex flex-col gap-[24px]">
               <div class="flex justify-between items-center self-stretch">
@@ -162,13 +163,14 @@
                   height="12"
                   viewBox="0 0 106 12"
                   fill="none"
+                  class="mob:w-[40px]"
                 >
                   <path
                     d="M105.333 6C105.333 3.05448 102.945 0.666667 99.9998 0.666667C97.0542 0.666666 94.6664 3.05448 94.6664 6C94.6664 8.94552 97.0542 11.3333 99.9998 11.3333C102.945 11.3333 105.333 8.94552 105.333 6ZM99.9998 5L-0.000244053 4.99999L-0.000244228 6.99999L99.9998 7L99.9998 5Z"
                     fill="#1476BF"
                   />
                 </svg>
-                <div class="mob:text-[24px] mob:leading-[32px] mob:px-[16px] border-solid border-[1px] border-black text-[36px] leading-[48px] px-[32px]">
+                <div class="mob:text-[24px] mob:leading-[32px] mob:px-[16px] border-solid border-[1.5px] border-black text-[36px] leading-[48px] px-[32px]">
                   <h1>2006</h1>
                 </div>
               </div>
@@ -178,7 +180,7 @@
               </p>
             </div>
             <div>
-              <button class="flex items-center gap-[10px] leading-[24px] text-[16px] border-solid border-2 border-black px-[16px] py-[12px] mob:leading-[16px]">
+              <button class="flex items-center gap-[10px] leading-[24px] text-[16px] border-solid border-[1px] border-black px-[16px] py-[12px] mob:leading-[16px]">
                 Explore Now
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -195,55 +197,55 @@
               </button>
             </div>
           </div>
-<!--          <svg-->
-<!--            xmlns="http://www.w3.org/2000/svg"-->
-<!--            width="78"-->
-<!--            height="32"-->
-<!--            viewBox="0 0 78 32"-->
-<!--            fill="none"-->
-<!--            class="mob:hidden"-->
-<!--          >-->
-<!--            <rect-->
-<!--              opacity="0.3"-->
-<!--              x="61.4998"-->
-<!--              y="32"-->
-<!--              width="61"-->
-<!--              height="32"-->
-<!--              transform="rotate(-180 61.4998 32)"-->
-<!--              fill="url(#paint0_linear_354_1409)"-->
-<!--            />-->
-<!--            <circle-->
-<!--              cx="61.4998"-->
-<!--              cy="16"-->
-<!--              r="16"-->
-<!--              transform="rotate(-180 61.4998 16)"-->
-<!--              fill="white"-->
-<!--            />-->
-<!--            <circle-->
-<!--              cx="61.4998"-->
-<!--              cy="16"-->
-<!--              r="8"-->
-<!--              transform="rotate(-180 61.4998 16)"-->
-<!--              fill="#1476BF"-->
-<!--            />-->
-<!--            <defs>-->
-<!--              <linearGradient-->
-<!--                id="paint0_linear_354_1409"-->
-<!--                x1="61.4998"-->
-<!--                y1="52"-->
-<!--                x2="173"-->
-<!--                y2="52"-->
-<!--                gradientUnits="userSpaceOnUse"-->
-<!--              >-->
-<!--                <stop stop-color="#1476BF" />-->
-<!--                <stop-->
-<!--                  offset="1"-->
-<!--                  stop-color="white"-->
-<!--                  stop-opacity="0"-->
-<!--                />-->
-<!--              </linearGradient>-->
-<!--            </defs>-->
-<!--          </svg>-->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="78"
+            height="32"
+            viewBox="0 0 78 32"
+            fill="none"
+            class="mob:hidden"
+          >
+            <rect
+              opacity="0.3"
+              x="61.4998"
+              y="32"
+              width="61"
+              height="32"
+              transform="rotate(-180 61.4998 32)"
+              fill="url(#paint0_linear_354_1409)"
+            />
+            <circle
+              cx="61.4998"
+              cy="16"
+              r="16"
+              transform="rotate(-180 61.4998 16)"
+              fill="white"
+            />
+            <circle
+              cx="61.4998"
+              cy="16"
+              r="8"
+              transform="rotate(-180 61.4998 16)"
+              fill="#1476BF"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_354_1409"
+                x1="61.4998"
+                y1="52"
+                x2="173"
+                y2="52"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#1476BF" />
+                <stop
+                  offset="1"
+                  stop-color="white"
+                  stop-opacity="0"
+                />
+              </linearGradient>
+            </defs>
+          </svg>
         </div>
       </div>
       <div class=" flex flex-col items-center justify-center relative mob:hidden">
@@ -325,7 +327,7 @@
                     />
                   </svg>
                 </div>
-                <div class="mob:text-[24px] mob:leading-[32px] mob:px-[16px] border-solid border-[1px] border-black text-[36px] leading-[48px] px-[32px]">
+                <div class="mob:text-[24px] mob:leading-[32px] mob:px-[16px] border-solid border-[1.5px] border-black text-[36px] leading-[48px] px-[32px]">
                   2023
                 </div>
               </div>
@@ -336,7 +338,7 @@
               </p>
             </div>
             <div>
-              <button class="flex items-center gap-[10px] leading-[24px] text-[16px] border-solid border-2 border-black px-[16px] py-[12px] mob:leading-[16px]">
+              <button class="flex items-center gap-[10px] leading-[24px] text-[16px] border-solid border-[1px] border-black px-[16px] py-[12px] mob:leading-[16px]">
                 Explore Now
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -354,52 +356,52 @@
             </div>
           </div>
         </div>
-        <div class="flex items-center relative top-[-35px] left-[-165px] z-10 mob:left-0">
-<!--          <svg-->
-<!--            xmlns="http://www.w3.org/2000/svg"-->
-<!--            width="78"-->
-<!--            height="32"-->
-<!--            viewBox="0 0 78 32"-->
-<!--            fill="none"-->
-<!--            class="mob:hidden"-->
-<!--          >-->
-<!--            <rect-->
-<!--              opacity="0.3"-->
-<!--              x="16.5005"-->
-<!--              width="61"-->
-<!--              height="32"-->
-<!--              fill="url(#paint0_linear_354_1274)"-->
-<!--            />-->
-<!--            <circle-->
-<!--              cx="16.5005"-->
-<!--              cy="16"-->
-<!--              r="16"-->
-<!--              fill="white"-->
-<!--            />-->
-<!--            <circle-->
-<!--              cx="16.5005"-->
-<!--              cy="16"-->
-<!--              r="8"-->
-<!--              fill="#ED0314"-->
-<!--            />-->
-<!--            <defs>-->
-<!--              <linearGradient-->
-<!--                id="paint0_linear_354_1274"-->
-<!--                x1="16.5005"-->
-<!--                y1="20"-->
-<!--                x2="128"-->
-<!--                y2="20"-->
-<!--                gradientUnits="userSpaceOnUse"-->
-<!--              >-->
-<!--                <stop stop-color="#ED0314" />-->
-<!--                <stop-->
-<!--                  offset="1"-->
-<!--                  stop-color="white"-->
-<!--                  stop-opacity="0"-->
-<!--                />-->
-<!--              </linearGradient>-->
-<!--            </defs>-->
-<!--          </svg>-->
+        <div class="flex items-center relative top-[-35px] left-[-30px] z-10 mob:left-0">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="78"
+            height="32"
+            viewBox="0 0 78 32"
+            fill="none"
+            class="mob:hidden"
+          >
+            <rect
+              opacity="0.3"
+              x="16.5005"
+              width="61"
+              height="32"
+              fill="url(#paint0_linear_354_1274)"
+            />
+            <circle
+              cx="16.5005"
+              cy="16"
+              r="16"
+              fill="white"
+            />
+            <circle
+              cx="16.5005"
+              cy="16"
+              r="8"
+              fill="#ED0314"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_354_1274"
+                x1="16.5005"
+                y1="20"
+                x2="128"
+                y2="20"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#ED0314" />
+                <stop
+                  offset="1"
+                  stop-color="white"
+                  stop-opacity="0"
+                />
+              </linearGradient>
+            </defs>
+          </svg>
           <div class="mob:w-[328px] mob:p-[16px] journey-card-body border-solid border-[1px] border-[#AFAFAF] w-[660px] flex flex-col p-[32px] gap-[24px]">
             <div class="flex flex-col gap-[24px]">
               <div class="flex justify-between items-center self-stretch">
@@ -417,13 +419,14 @@
                   height="12"
                   viewBox="0 0 106 12"
                   fill="none"
+                  class="mob:w-[40px]"
                 >
                   <path
                     d="M105.334 6C105.334 3.05448 102.946 0.666667 100 0.666667C97.055 0.666666 94.6672 3.05448 94.6672 6C94.6672 8.94552 97.055 11.3333 100 11.3333C102.946 11.3333 105.334 8.94552 105.334 6ZM100 5L0.000488369 4.99999L0.000488194 6.99999L100 7L100 5Z"
                     fill="#ED0314"
                   />
                 </svg>
-                <div class="mob:text-[24px] mob:leading-[32px] mob:px-[16px] border-solid border-[1px] border-black text-[36px] leading-[48px] px-[32px]">
+                <div class="mob:text-[24px] mob:leading-[32px] mob:px-[16px] border-solid border-[1.5px] border-black text-[36px] leading-[48px] px-[32px]">
                   <h1>2016</h1>
                 </div>
               </div>
@@ -433,7 +436,7 @@
               </p>
             </div>
             <div>
-              <button class="mob:leading-[16px] flex items-center gap-[10px] leading-[24px] text-[16px] border-solid border-2 border-indigo-600 px-[16px] py-[12px]">
+              <button class="mob:leading-[16px] flex items-center gap-[10px] leading-[24px] text-[16px] border-solid border-[1px] border-black px-[16px] py-[12px]">
                 Explore Now
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

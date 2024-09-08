@@ -5,14 +5,14 @@ const formPhone = ref<number>();
 </script>
 
 <template>
-  <div class="flex justify-center px-[240px] py-[80px] gap-[32px]">
-    <div class="w-[456px] h-auto p-[32px]">
-      <span class="text-[64px] leading-[48px] font-bold">Get In Touch</span>
+  <div class="text-[#262626] flex justify-center px-[240px] py-[80px] gap-[32px] mob:px-[16px] mob:py-[64px] mob:gap-[16px] mob:flex-col">
+    <div class="w-[456px] h-auto p-[32px] mob:p-[16px]">
+      <span class="text-[64px] leading-[48px] font-bold mob:text-[30px] mob:leading-[36px]">Get In Touch</span>
     </div>
-    <div class="w-[554px] flex flex-col gap-[32px] p-[32px]">
+    <div class="w-[554px] flex flex-col gap-[32px] p-[32px] mob:w-auto mob:p-[16px]">
       <div class="flex flex-col gap-[24px]">
-        <div class="p-[10px]">
-          <span class="font-bold leading-[32px] text-[48px]">
+        <div class="p-[10px] mob:p-0">
+          <span class="font-bold leading-[32px] text-[48px] mob:text-[24px] mob:leading-[32px]">
             Shoot Me Email
           </span>
         </div>
@@ -23,7 +23,7 @@ const formPhone = ref<number>();
               v-model="formName"
               name="name"
               type="text"
-              class="block w-full text-[20px] leading-[42px] border-0 border-b border-gray-400 focus:outline-none bg-[#F6F9FA] focus:ring-0"
+              class="mob:text-[16px] mob:leading-[32px] block w-full text-[20px] leading-[42px] border-0 border-b border-gray-400 focus:outline-none bg-[#F6F9FA] focus:ring-0"
               placeholder="Enter Your Name"
             >
           </div>
@@ -33,7 +33,7 @@ const formPhone = ref<number>();
               v-model="formEmail"
               name="email"
               type="email"
-              class="block w-full text-[20px] leading-[42px] border-0 border-b border-gray-400 bg-[#F6F9FA] focus:outline-none focus:ring-0"
+              class="mob:text-[16px] mob:leading-[32px] block w-full text-[20px] leading-[42px] border-0 border-b border-gray-400 bg-[#F6F9FA] focus:outline-none focus:ring-0"
               placeholder="Enter Your Email"
             >
           </div>
@@ -43,22 +43,22 @@ const formPhone = ref<number>();
               v-model="formPhone"
               name="phone"
               type="number"
-              class="block w-full text-[20px] leading-[42px] bg-[#F6F9FA] border-0 border-b border-gray-400 focus:outline-none focus:ring-0"
+              class="mob:text-[16px] mob:leading-[32px] block w-full text-[20px] leading-[42px] bg-[#F6F9FA] border-0 border-b border-gray-400 focus:outline-none focus:ring-0"
               placeholder="Enter Your Phone"
             >
           </div>
           <div class="flex flex-col py-[16px] border-b border-gray-400">
             <textarea
               placeholder="Leave a Message for Me"
-              class="block h-[44px] text-[20px] w-full bg-[#F6F9FA] border-0 focus:outline-none focus:ring-0"
+              class="mob:text-[16px] mob:leading-[32px] block h-[44px] text-[20px] w-full bg-[#F6F9FA] border-0 focus:outline-none focus:ring-0"
             />
           </div>
         </div>
       </div>
 
       <div>
-        <button class="flex border-solid border-2 border-black px-[24px] py-[16px] items-center gap-[10px]">
-          <span class="text-[24px]">Send Message</span>
+        <button class="flex border-solid border-[.5px] border-black px-[24px] py-[16px] items-center gap-[10px] mob:py-[12px] mob:gap-[8px]">
+          <span class="text-[24px] mob:text-[16px] mob:leading-[24px]">Send Message</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -74,19 +74,19 @@ const formPhone = ref<number>();
         </button>
       </div>
     </div>
-    <div class="flex-col flex w-[366px] p-[32px] items-start gap-[24px]">
-      <div class="flex items-center p-[10px]">
-        <span class="leading-[32px] text-[48px] font-bold">
+    <div class="flex-col flex w-[366px] p-[32px] items-start gap-[24px] mob:w-auto mob:gap-[16px] mob:p-[16px]">
+      <div class="flex items-center p-[10px] mob:p-0">
+        <span class="leading-[32px] text-[48px] font-bold mob:text-[24px] mob:leading-[32px]">
           Contact Info
         </span>
       </div>
       <div class="flex flex-col gap-[16px]">
-        <div class="flex-col flex p-[10px] gap-[16px]">
-          <span class="text-[24px] leading-[20px] font-bold">Email:</span>
+        <div class="flex-col flex p-[10px] gap-[16px] mob:p-0">
+          <span class="text-[24px] leading-[20px] font-bold mob:text-[20px] mob:leading-[28px]">Email:</span>
           <span class="text-[16px] font-normal leading-[20px]">emamhossain703@gmail.com</span>
         </div>
-        <div class="flex-col flex p-[10px] gap-[16px]">
-          <span class="text-[24px] font-bold leading-[20px]">Address:</span>
+        <div class="flex-col flex p-[10px] gap-[16px] mob:p-0">
+          <span class="text-[24px] font-bold leading-[20px] mob:text-[20px] mob:leading-[28px]">Address:</span>
           <span class="text-[16px] font-normal leading-[20px]">BTI Premier Shopping Mall, Uttar Badda 1212 Dhaka</span>
         </div>
       </div>
